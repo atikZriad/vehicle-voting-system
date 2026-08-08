@@ -1,0 +1,66 @@
+#regiration_form fieldset:not(:first-of-type) {
+    display: none;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+}
+
+.main {
+    margin-top: 100px;
+    background: #000000db;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-control:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+label {
+    margin-bottom: .2rem !important;
+    font-weight: 550;
+    font-size: 18px;
+    color: #CE7E00;
+}
+
+.btn-dark {
+    background-color: #CE7E00;
+    color: black;
+    border: 1px solid #CE7E00;
+}
+
+h2 {
+    font-size: 26px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #CE7E00;
+}
+
+h1 {
+    font-size: 36px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #CE7E00;
+}
+
+p {
+    color: #fff;
+}
+
+@media screen and (max-width:550px) {
+    .main {
+        margin-top: 200px;
+    }
+    .form-img {
+        margin-bottom: 20px;
+    }
+}
